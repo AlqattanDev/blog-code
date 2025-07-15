@@ -36,7 +36,19 @@ Blog posts use simple slug-only URLs (`/my-first-post`) derived from markdown fi
 
 ## Development Commands
 
-*Note: Commands will be added when the Astro project is initialized*
+```bash
+# Development server with hot reload
+yarn dev
+
+# Build for production
+yarn build
+
+# Preview production build locally
+yarn preview
+
+# Add integrations (e.g., yarn astro add react)
+yarn astro add [integration]
+```
 
 ## Build Strategy
 - **Development**: Local Astro dev server with mock content or GitHub API calls
